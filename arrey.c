@@ -1,12 +1,10 @@
 #include <stdio.h>
-int main()
-{
+int main(){
     int arr[20], n, choice;
-    do
-    {
+    do{
         printf("\n1.Create data");
         printf("\n2.Display data");
-        printf("\n3.Enter your choice");
+        printf("\nEnter your choice");
         scanf("%d", &choice);
         switch (choice)
         {
@@ -26,11 +24,11 @@ int main()
             {
                 printf("%d ", arr[i]);
             }
-        }
-        while (choice != 0){
+        }}
+        while (choice != 0)
             ;
 
         return 0;
     }
-}
-}
+
+
