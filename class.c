@@ -163,7 +163,7 @@
 // }
 
 
-// #include <stdio.h>
+// #include<stdio.h>
 // int main() {
 //     int rows, i, j;
 
@@ -178,7 +178,24 @@
 //     }
 // }
 
-#include<stdio.h>
-int main(){
-    for(int i=0;i<=10;i++)
+// #include<stdio.h>
+// int main(){
+//     for(int i=0; i<5; i++)
+//     {
+//         for(int j=0; j<i; j++)
+//         {
+//             printf("*");
+//         }
+//     }printf("\n");
+// }
+
+#include <stdio.h>
+int main() {
+    for(int i = 0; i < 5; i++) {
+        for(int j = 5; j >= i; j--) {
+            printf("*");
+        }
+        printf("\n"); // newline after each row
+    }
+    return 0;
 }

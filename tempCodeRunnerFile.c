@@ -1,9 +1,18 @@
+<stdio.h>
+// int main(){
+//     for(int i=0; i<5; i++){
+//         for(int j=0; j<i; j++){
+//             printf("*");
+//         }
+//     }printf("\n");
+// }
 
-    int num;
-    printf("enter any no:");
-    scanf("%d",&num);
-    for( int i=2; i<num; i++){
-        if (num%i==0){
-            printf(num,"%d not prime");
-        }else{
-         
+// #include<stdio.h>
+// int main(){
+//     for(int i=0; i<5; i++){
+//         for (int j=5; j>=i; j--)
+//         {
+//             printf("*");
+//         }
+//     }printf("\n");
+// }

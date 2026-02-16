@@ -90,3 +90,32 @@
 //     }
 //     return 0;
 // }
+
+// #include<stdio.h>
+// int main(){
+//     for(int i=0; i<5; i++){
+//         for(int j=0; j<i; j++){
+//             printf("*");
+//         }
+//     }printf("\n");
+// }
+
+// #include<stdio.h>
+// int main(){
+//     for(int i=0; i<5; i++){
+//         for (int j=5; j>=i; j--)
+//         {
+//             printf("*");
+//         }
+//     }printf("\n");
+// }
+#include <stdio.h>
+int main() {
+    for(int i = 0; i < 5; i++) {
+        for(int j = 5; j >= i; j--) {
+            printf("*");
+        }
+        printf("\n"); // newline after each row
+    }
+    return 0;
+}
