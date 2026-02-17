@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int arr[20], n, choice ,m;
+    int arr[20], n, choice,pos ,m;
     do{
         printf("\n1.Create data");
         printf("\n2.Display data");
@@ -38,7 +38,10 @@ int main(){
             case 5:
             printf("\nEnter the position");
             scanf("%d",&pos);
-            
+            if(pos>n){
+                printf("\nKindly enter valid ");
+            }
+
 
         }}
         while (choice != 0)
